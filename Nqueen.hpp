@@ -1,6 +1,6 @@
 
 /*
- * count the toale number of N queue by bitwise
+ * count the total number of N queue by bitwise
  */
 
 class NqueenCounter {
@@ -10,7 +10,7 @@ public:
     }
     
 	/*
-	 * use tree parameter of indicate the forbiden postion by row and the two diagonals
+	 * use tree integers to indicate the forbiden postion by row and the two diagonals
 	 */
     int nQueen(int row, int r, int d, int n) {
         if (row == (1<<n) - 1) {
