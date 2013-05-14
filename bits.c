@@ -63,11 +63,11 @@ int addOK(int x, int y) {
   return ((x>>31&1) ^ (y>>31&1)) | !(((x>>31)^((x+y)>>31)) | ((y>>31)^((x+y)>>31)));
 }
 /* 
- * bang - Compute !x without using !
+ * negate - Compute !x without using !
  *   Examples: bang(3) = 0, bang(0) = 1
  *   Legal ops: ~ & ^ | + << >>
  */
-int bang(int x) {
+int negate(int x) {
   return ((x>>31) + 1) & ((((~x)+1)>>31)+1) ;
 }
 /* 
