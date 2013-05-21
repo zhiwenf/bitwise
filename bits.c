@@ -12,7 +12,7 @@ int bitAnd(int x, int y) {
  *   Legal ops: ~ &
  */
 int bitXor(int x, int y) {
-  return (x&~y) | (~x & y);
+  return ~(~(x&~y) & ~(~x & y));
 }
 /* 
  * fitsBits - return 1 if x can be represented as an 
