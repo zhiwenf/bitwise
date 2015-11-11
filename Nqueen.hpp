@@ -33,5 +33,6 @@ public:
     }
     int xx(){}
     int feature2() {}
+    int foo() {}
 };
 
