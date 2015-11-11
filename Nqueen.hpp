@@ -12,7 +12,7 @@ public:
 	/*
 	 * use tree integers to indicate the forbiden postion by row and the two diagonals
 	 * I just don't understart now
-   * Oh, I understand!!
+   * Oh, I understand
    */
     int nQueen(int row, int r, int d, int n) {
         if (row == (1<<n) - 1) {
@@ -25,6 +25,11 @@ public:
 			v |= ((~v) & (v+1));
         }
         return sum;
+    }
+
+    int feature1(int row, int r, int d, int n) {
+      // to do
+      return 0;
     }
 };
 
