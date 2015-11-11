@@ -31,6 +31,7 @@ public:
       // to do
       return 0;
     }
+    int xx(){}
     int feature2() {}
 };
 
