@@ -34,5 +34,6 @@ public:
     int xx(){}
     int feature2() {}
     int foo() {}
+    int y() {}
 };
 
