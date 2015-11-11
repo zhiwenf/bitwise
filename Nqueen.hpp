@@ -26,5 +26,10 @@ public:
         }
         return sum;
     }
+
+    int feature1(int row, int r, int d, int n) {
+      // to do
+      return 0;
+    }
 };
 
