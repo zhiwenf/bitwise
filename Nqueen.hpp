@@ -12,7 +12,7 @@ public:
 	/*
 	 * use tree integers to indicate the forbiden postion by row and the two diagonals
 	 * I just don't understart now
-   * Oh, Iunderstand
+   * Oh, I understand
    */
     int nQueen(int row, int r, int d, int n) {
         if (row == (1<<n) - 1) {
