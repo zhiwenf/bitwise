@@ -34,6 +34,10 @@ public:
     int xx(){}
     int feature2() {}
     int foo() {}
+<<<<<<< HEAD
     int y() {}
+=======
+    int z() {}
+>>>>>>> haha
 };
 
