@@ -32,8 +32,11 @@ public:
       return 0;
     }
     int xx(){}
-    int feature2() {}
     int foo() {}
     int a() {}
+    int feature2() 
+    {
+      return 1;
+    }
 };
 
